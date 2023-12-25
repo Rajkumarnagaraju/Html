@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE</title>
+    <style>
+        .que
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left:20px;
+        }
+        .text
+        { 
+            font-size: 30px;
+            vertical-align: top;
+            padding-left: 20px;
+        }
+        .optionshape
+        {
+            width:30px;
+            height:30px;
+        }
+        .optionshape:hover
+        {
+            cursor: pointer;
+            
+        }
+        .opone
+        {
+            margin-left: 50px;
+            width:300px;
+            margin-top: 30px;
+            background-color: rgb(0, 0, 0);
+            padding:10px;
+            border-radius: 30px;
+            color:white;
+        }
+        .opone:hover
+        { 
+            background-color: rgb(53, 6, 170);
+            
+        }
+        .last:hover
+        {
+            opacity:0;
+            padding-left:100px;
+        }
+    </style>
+</head>
+<body >
+    <div class="que">
+    <h1>Choose your level of difficulty &#x3f; </h1>
+    <div class="opone"><input class="optionshape" type="radio" name="gender"><label class="text" >Beginner</label></div>
+    <div class="opone"><input class="optionshape" type="radio" name="gender"><label class="text" >Intermediate</label></div>
+    <div class="opone"><input class="optionshape" type="radio" name="gender"><label class="text" >Hard</label></div>
+    <div class="opone last"><input class="optionshape" type="radio" name="gender"><label class="text" >Select This</label></div>
+    </div>
+</body>
+</html>
